@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+            color: white;
+            background: rgb(22, 17, 54);
+        }
+        
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        
+        h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Friends</h2>
+    <input onkeyup="searchFun()" type="text" id="myInput" placeholder="Names....only" style="width: 50%; padding: 15px; margin-bottom: 1em; margin-left: 23em; background-color:rgb(182, 128, 233);color: white; ">
+
+    <table id="myTable">
+        <tr style="background-color:green;">
+            <th>Name</th>
+            <th>Degree</th>
+            <th>Profession</th>
+            <th>Photo</th>
+        </tr>
+        <tr>
+            <td>Robin</td>
+            <td>Msc</td>
+            <td>Web designer</td>
+            <td><img src="pic/download.jpg" height="100px" width="100px"></td>
+        </tr>
+        <tr>
+            <td>Sajjad</td>
+            <td>Bsc</td>
+            <td>web developer</td>
+            <td><img src="pic/download.jpg" height="100px" width="100px"></td>
+        </tr>
+        <tr>
+            <td>Rakib</td>
+            <td>Bsc</td>
+            <td>App developer</td>
+            <td><img src="pic/download.jpg" height="100px" width="100px"></td>
+        </tr>
+        <tr>
+            <td>Tuhin</td>
+            <td>BBA</td>
+            <td>Human Resource develop</td>
+            <td><img src="pic/download.jpg" height="100px" width="100px"></td>
+        </tr>
+        <tr>
+            <td>Abir</td>
+            <td>BSS</td>
+            <td>Banker</td>
+            <td><img src="pic/download.jpg" height="100px" width="100px"></td>
+        </tr>
+        <tr>
+            <td>Rabiul</td>
+            <td>SWE</td>
+            <td>software tester</td>
+            <td><img src="pic/download.jpg" height="100px" width="100px"></td>
+        </tr>
+    </table>
+    <p id="demo"></p>
+
+    <script src="search.js">
+    </script>
+
+</body>
+
+</html>
